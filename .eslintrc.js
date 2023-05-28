@@ -5,9 +5,7 @@ module.exports = {
     node: true,
     mocha: true,
   },
-  extends: [
-    'airbnb-base',
-  ],
+  extends: ['airbnb-base'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
@@ -16,5 +14,17 @@ module.exports = {
     ecmaVersion: 2018,
   },
   rules: {
+    // 'comma-dangle': ['error', 'never'],
+    // // or
+    // 'comma-dangle': [
+    //   'error',
+    //   {
+    //     arrays: 'never',
+    //     objects: 'never',
+    //     imports: 'never',
+    //     exports: 'never',
+    //     functions: 'never',
+    //   },
+    // ],
   },
 };
