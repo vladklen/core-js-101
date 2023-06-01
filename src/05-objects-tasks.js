@@ -120,12 +120,9 @@ class Selector {
   }
 
   element(value) {
-
     this.checkOrder(0);
-
     this.selector += value;
     this.order.push(0);
-
     return this;
   }
 
