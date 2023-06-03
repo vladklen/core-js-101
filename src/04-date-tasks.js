@@ -123,7 +123,7 @@ function angleBetweenClockHands(data) {
   return Math.min(angle, 360 - angle) * (Math.PI / 180);
 }
 
-console.log(angleBetweenClockHands(Date.UTC(2016, 3, 5, 21, 0)));
+// console.log(angleBetweenClockHands(Date.UTC(2016, 3, 5, 21, 0)));
 
 module.exports = {
   parseDataFromRfc2822,

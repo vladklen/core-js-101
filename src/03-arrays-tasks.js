@@ -248,7 +248,6 @@ function toArrayOfSquares(arr) {
 function getMovingSum(arr) {
   const result = [];
   arr.reduce((acc, el) => {
-    console.log(acc, el);
     const item = acc + el;
     result.push(item);
     return item;

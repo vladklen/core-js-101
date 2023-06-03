@@ -140,7 +140,6 @@ function removeFirstOccurrences(str, value) {
   return str.replace(value, '');
 }
 
-console.log(removeFirstOccurrences('ABABAB'));
 
 /**
  * Remove the first and last angle brackets from tag string
